@@ -9,7 +9,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="{{ asset('public/img/favicon.ico') }}" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,15 +21,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="{{ asset('lib/animate/animate.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('lib/lightbox/css/lightbox.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('public/lib/animate/animate.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('public/lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('public/lib/lightbox/css/lightbox.min.css') }}" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('public/css/bootstrap.min.css') }}" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('public/css/style.css') }}" rel="stylesheet">
 </head>
 
 <body>
@@ -104,7 +104,7 @@
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="{{ asset('img/carousel-1.jpg') }}" alt="Image">
+                    <img class="w-100" src="{{ asset('public/img/carousel-1.jpg') }}" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
@@ -117,7 +117,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="{{ asset('img/carousel-2.jpg') }}" alt="Image">
+                    <img class="w-100" src="{{ asset('public/img/carousel-2.jpg') }}" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
@@ -199,7 +199,7 @@
         <div class="container">
             <div class="row g-5 align-items-end">
                 <div class="col-lg-3 col-md-5 wow fadeInUp" data-wow-delay="0.1s">
-                    <img class="img-fluid rounded" data-wow-delay="0.1s" src="{{ asset('img/about.jpg') }}">
+                    <img class="img-fluid rounded" data-wow-delay="0.1s" src="{{ asset('public/img/about.jpg') }}">
                 </div>
                 <div class="col-lg-6 col-md-7 wow fadeInUp" data-wow-delay="0.3s">
                     <h1 class="display-1 text-primary mb-0">25</h1>
@@ -233,7 +233,7 @@
 
 
     <!-- Facts Start -->
-    <div class="container-fluid facts my-5 py-5" data-parallax="scroll" data-image-src="{{ asset('img/carousel-1.jpg') }}">
+    <div class="container-fluid facts my-5 py-5" data-parallax="scroll" data-image-src="{{ asset('public/img/carousel-1.jpg') }}">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-sm-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
@@ -317,11 +317,11 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item rounded d-flex h-100">
                         <div class="service-img rounded">
-                            <img class="img-fluid" src="{{ asset('img/service-1.jpg') }}" alt="">
+                            <img class="img-fluid" src="{{ asset('public/img/service-1.jpg') }}" alt="">
                         </div>
                         <div class="service-text rounded p-5">
                             <div class="btn-square rounded-circle mx-auto mb-3">
-                                <img class="img-fluid" src="{{ asset('img/icon/icon-3.png') }}" alt="Icon">
+                                <img class="img-fluid" src="{{ asset('public/img/icon/icon-3.png') }}" alt="Icon">
                             </div>
                             <h4 class="mb-3">Landscaping</h4>
                             <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
@@ -332,11 +332,11 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item rounded d-flex h-100">
                         <div class="service-img rounded">
-                            <img class="img-fluid" src="{{ asset('img/service-2.jpg') }}" alt="">
+                            <img class="img-fluid" src="{{ asset('public/img/service-2.jpg') }}" alt="">
                         </div>
                         <div class="service-text rounded p-5">
                             <div class="btn-square rounded-circle mx-auto mb-3">
-                                <img class="img-fluid" src="{{ asset('img/icon/icon-6.png') }}" alt="Icon">
+                                <img class="img-fluid" src="{{ asset('public/img/icon/icon-6.png') }}" alt="Icon">
                             </div>
                             <h4 class="mb-3">Pruning plants</h4>
                             <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
@@ -347,11 +347,11 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item rounded d-flex h-100">
                         <div class="service-img rounded">
-                            <img class="img-fluid" src="{{ asset('img/service-3.jpg') }}" alt="">
+                            <img class="img-fluid" src="{{ asset('public/img/service-3.jpg') }}" alt="">
                         </div>
                         <div class="service-text rounded p-5">
                             <div class="btn-square rounded-circle mx-auto mb-3">
-                                <img class="img-fluid" src="{{ asset('img/icon/icon-5.png') }}" alt="Icon">
+                                <img class="img-fluid" src="{{ asset('public/img/icon/icon-5.png') }}" alt="Icon">
                             </div>
                             <h4 class="mb-3">Irrigation & Drainage</h4>
                             <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
@@ -362,11 +362,11 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item rounded d-flex h-100">
                         <div class="service-img rounded">
-                            <img class="img-fluid" src="{{ asset('img/service-4.jpg') }}" alt="">
+                            <img class="img-fluid" src="{{ asset('public/img/service-4.jpg') }}" alt="">
                         </div>
                         <div class="service-text rounded p-5">
                             <div class="btn-square rounded-circle mx-auto mb-3">
-                                <img class="img-fluid" src="{{ asset('img/icon/icon-4.png') }}" alt="Icon">
+                                <img class="img-fluid" src="{{ asset('public/img/icon/icon-4.png') }}" alt="Icon">
                             </div>
                             <h4 class="mb-3">Garden Maintenance </h4>
                             <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
@@ -377,11 +377,11 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item rounded d-flex h-100">
                         <div class="service-img rounded">
-                            <img class="img-fluid" src="{{ asset('img/service-5.jpg') }}" alt="">
+                            <img class="img-fluid" src="{{ asset('public/img/service-5.jpg') }}" alt="">
                         </div>
                         <div class="service-text rounded p-5">
                             <div class="btn-square rounded-circle mx-auto mb-3">
-                                <img class="img-fluid" src="{{ asset('img/icon/icon-8.png') }}" alt="Icon">
+                                <img class="img-fluid" src="{{ asset('public/img/icon/icon-8.png') }}" alt="Icon">
                             </div>
                             <h4 class="mb-3">Green Technology</h4>
                             <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
@@ -392,11 +392,11 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item rounded d-flex h-100">
                         <div class="service-img rounded">
-                            <img class="img-fluid" src="{{ asset('img/service-6.jpg') }}" alt="">
+                            <img class="img-fluid" src="{{ asset('public/img/service-6.jpg') }}" alt="">
                         </div>
                         <div class="service-text rounded p-5">
                             <div class="btn-square rounded-circle mx-auto mb-3">
-                                <img class="img-fluid" src="{{ asset('img/icon/icon-2.png') }}" alt="Icon">
+                                <img class="img-fluid" src="{{ asset('public/img/icon/icon-2.png') }}" alt="Icon">
                             </div>
                             <h4 class="mb-3">Urban Gardening</h4>
                             <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
@@ -411,7 +411,7 @@
 
 
     <!-- Quote Start -->
-    <div class="container-fluid quote my-5 py-5" data-parallax="scroll" data-image-src="{{ asset('img/carousel-2.jpg') }}">
+    <div class="container-fluid quote my-5 py-5" data-parallax="scroll" data-image-src="{{ asset('public/img/carousel-2.jpg') }}">
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-7">
@@ -479,7 +479,7 @@
             <div class="row g-4 portfolio-container">
                 <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
                     <div class="portfolio-inner rounded">
-                        <img class="img-fluid" src="{{ asset('img/service-1.jpg') }}" alt="">
+                        <img class="img-fluid" src="{{ asset('public/img/service-1.jpg') }}" alt="">
                         <div class="portfolio-text">
                             <h4 class="text-white mb-4">Landscaping</h4>
                             <div class="d-flex">
@@ -491,7 +491,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.3s">
                     <div class="portfolio-inner rounded">
-                        <img class="img-fluid" src="{{ asset('img/service-2.jpg') }}" alt="">
+                        <img class="img-fluid" src="{{ asset('public/img/service-2.jpg') }}" alt="">
                         <div class="portfolio-text">
                             <h4 class="text-white mb-4">Pruning plants</h4>
                             <div class="d-flex">
@@ -503,7 +503,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.5s">
                     <div class="portfolio-inner rounded">
-                        <img class="img-fluid" src="{{ asset('img/service-3.jpg') }}" alt="">
+                        <img class="img-fluid" src="{{ asset('public/img/service-3.jpg') }}" alt="">
                         <div class="portfolio-text">
                             <h4 class="text-white mb-4">Irrigation & Drainage</h4>
                             <div class="d-flex">
@@ -515,7 +515,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.1s">
                     <div class="portfolio-inner rounded">
-                        <img class="img-fluid" src="{{ asset('img/service-4.jpg') }}" alt="">
+                        <img class="img-fluid" src="{{ asset('public/img/service-4.jpg') }}" alt="">
                         <div class="portfolio-text">
                             <h4 class="text-white mb-4">Garden Maintenance</h4>
                             <div class="d-flex">
@@ -527,7 +527,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.3s">
                     <div class="portfolio-inner rounded">
-                        <img class="img-fluid" src="{{ asset('img/service-5.jpg') }}" alt="">
+                        <img class="img-fluid" src="{{ asset('public/img/service-5.jpg') }}" alt="">
                         <div class="portfolio-text">
                             <h4 class="text-white mb-4">Green Technology</h4>
                             <div class="d-flex">
@@ -539,11 +539,11 @@
                 </div>
                 <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.5s">
                     <div class="portfolio-inner rounded">
-                        <img class="img-fluid" src="{{ asset('img/service-6.jpg') }}" alt="">
+                        <img class="img-fluid" src="{{ asset('public/img/service-6.jpg') }}" alt="">
                         <div class="portfolio-text">
                             <h4 class="text-white mb-4">Urban Gardening</h4>
                             <div class="d-flex">
-                                <a class="btn btn-lg-square rounded-circle mx-2" href="{{ asset('img/service-6.jpg') }}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-lg-square rounded-circle mx-2" href="{{ asset('public/img/service-6.jpg') }}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                 <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a>
                             </div>
                         </div>
@@ -565,7 +565,7 @@
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item rounded">
-                        <img class="img-fluid" src="{{ asset('img/team-1.jpg') }}" alt="">
+                        <img class="img-fluid" src="{{ asset('public/img/team-1.jpg') }}" alt="">
                         <div class="team-text">
                             <h4 class="mb-0">Doris Jordan</h4>
                             <p class="text-primary">Landscape Designer</p>
@@ -579,7 +579,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item rounded">
-                        <img class="img-fluid" src="{{ asset('img/team-2.jpg') }}" alt="">
+                        <img class="img-fluid" src="{{ asset('public/img/team-2.jpg') }}" alt="">
                         <div class="team-text">
                             <h4 class="mb-0">Johnny Ramirez</h4>
                             <p class="text-primary">Garden Designer</p>
@@ -593,7 +593,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item rounded">
-                        <img class="img-fluid" src="{{ asset('img/team-3.jpg') }}" alt="">
+                        <img class="img-fluid" src="{{ asset('public/img/team-3.jpg') }}" alt="">
                         <div class="team-text">
                             <h4 class="mb-0">Diana Wagner</h4>
                             <p class="text-primary">Senior Gardener</p>
@@ -624,13 +624,13 @@
                 <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="owl-carousel testimonial-carousel">
                         <div class="testimonial-item">
-                            <img class="img-fluid rounded mb-3" src="{{ asset('img/testimonial-1.jpg') }}" alt="">
+                            <img class="img-fluid rounded mb-3" src="{{ asset('public/img/testimonial-1.jpg') }}" alt="">
                             <p class="fs-5">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.</p>
                             <h4>Client Name</h4>
                             <span>Profession</span>
                         </div>
                         <div class="testimonial-item">
-                            <img class="img-fluid rounded mb-3" src="{{ asset('img/testimonial-2.jpg') }}" alt="">
+                            <img class="img-fluid rounded mb-3" src="{{ asset('public/img/testimonial-2.jpg') }}" alt="">
                             <p class="fs-5">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.</p>
                             <h4>Client Name</h4>
                             <span>Profession</span>
@@ -715,17 +715,17 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="{{ asset('lib/wow/wow.min.js') }}"></script>
-    <script src="{{ asset('lib/easing/easing.min.js') }}"></script>
-    <script src="{{ asset('lib/waypoints/waypoints.min.js') }}"></script>
-    <script src="{{ asset('lib/owlcarousel/owl.carousel.min.js') }}"></script>
-    <script src="{{ asset('lib/counterup/counterup.min.js') }}"></script>
-    <script src="{{ asset('lib/parallax/parallax.min.js') }}"></script>
-    <script src="{{ asset('lib/isotope/isotope.pkgd.min.js') }}"></script>
-    <script src="{{ asset('lib/lightbox/js/lightbox.min.js') }}"></script>
+    <script src="{{ asset('public/lib/wow/wow.min.js') }}"></script>
+    <script src="{{ asset('public/lib/easing/easing.min.js') }}"></script>
+    <script src="{{ asset('public/lib/waypoints/waypoints.min.js') }}"></script>
+    <script src="{{ asset('public/lib/owlcarousel/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('public/lib/counterup/counterup.min.js') }}"></script>
+    <script src="{{ asset('public/lib/parallax/parallax.min.js') }}"></script>
+    <script src="{{ asset('public/lib/isotope/isotope.pkgd.min.js') }}"></script>
+    <script src="{{ asset('public/lib/lightbox/js/lightbox.min.js') }}"></script>
 
     <!-- Template Javascript -->
-    <script src="{{ asset('js/main.js') }}"></script>
+    <script src="{{ asset('public/js/main.js') }}"></script>
 </body>
 
 </html>
