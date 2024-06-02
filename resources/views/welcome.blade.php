@@ -46,11 +46,15 @@
             <div class="col-lg-7 px-5 text-start">
                 <div class="h-100 d-inline-flex align-items-center me-4">
                     <span class="fa fa-phone-alt me-2"></span>
-                    <span>+012 345 6789</span>
+                    <span>+919599671247</span>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <span class="fa fa-phone-alt me-2"></span>
+                    <span>+919667529145</span>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center">
                     <span class="far fa-envelope me-2"></span>
-                    <span>info@example.com</span>
+                    <span>info@a3p.in</span>
                 </div>
             </div>
             <div class="col-lg-5 px-5 text-end">
@@ -69,7 +73,7 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
-        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+        <a href="{{ env('APP_URL') }}" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
             <h1 class="m-0">A3P.in</h1>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -77,11 +81,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
-                <a href="service.html" class="nav-item nav-link">Services</a>
-                <a href="project.html" class="nav-item nav-link">Projects</a>
-                <div class="nav-item dropdown">
+                <a href="{{ env('APP_URL') }}" class="nav-item nav-link active">Home</a>
+                <a href="#about_section" class="nav-item nav-link">About</a>
+                <a href="#service_section" class="nav-item nav-link">Services</a>
+                <a href="#project_section" class="nav-item nav-link">Projects</a>
+                <!-- <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                     <div class="dropdown-menu bg-light m-0">
                         <a href="feature.html" class="dropdown-item">Features</a>
@@ -90,10 +94,10 @@
                         <a href="testimonial.html" class="dropdown-item">Testimonial</a>
                         <a href="404.html" class="dropdown-item">404 Page</a>
                     </div>
-                </div>
+                </div> -->
                 <a href="contact.html" class="nav-item nav-link">Contact</a>
             </div>
-            <a href="" class="btn btn-primary py-4 px-lg-4 rounded-0 d-none d-lg-block">Get A Quote<i class="fa fa-arrow-right ms-3"></i></a>
+            <a href="#get_a_quote" class="btn btn-primary py-4 px-lg-4 rounded-0 d-none d-lg-block">Get A Quote<i class="fa fa-arrow-right ms-3"></i></a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -104,7 +108,7 @@
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="{{ asset('public/img/carousel-1.jpg') }}" alt="Image">
+                    <img class="w-100" src="{{ asset('public/img/banner/IMG-20240425-WA0014.jpg') }}" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
@@ -117,7 +121,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="{{ asset('public/img/carousel-2.jpg') }}" alt="Image">
+                    <img class="w-100" src="{{ asset('public/img/banner/IMG-20240425-WA0015.jpg') }}" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
@@ -195,7 +199,7 @@
 
 
     <!-- About Start -->
-    <div class="container-xxl py-5">
+    <div id="about_section" class="container-xxl py-5">
         <div class="container">
             <div class="row g-5 align-items-end">
                 <div class="col-lg-3 col-md-5 wow fadeInUp" data-wow-delay="0.1s">
@@ -205,7 +209,7 @@
                     <h1 class="display-1 text-primary mb-0">25</h1>
                     <p class="text-primary mb-4">Year of Experience</p>
                     <h1 class="display-5 mb-4">We Make Your Home Like A Garden</h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                    <p class="mb-4">Passionate Expertise-Our manufacturing process is driven by a team of skilled experts who bring their expertise and precision in every step ,from sourcing finest raw materials to the final product. Formulations as per German Technology.</p>
                     <a class="btn btn-primary py-3 px-4" href="">Explore More</a>
                 </div>
                 <div class="col-lg-3 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
@@ -233,7 +237,7 @@
 
 
     <!-- Facts Start -->
-    <div class="container-fluid facts my-5 py-5" data-parallax="scroll" data-image-src="{{ asset('public/img/carousel-1.jpg') }}">
+    <div class="container-fluid facts my-5 py-5" data-parallax="scroll" data-image-src="{{ asset('public/img/banner/IMG-20240425-WA0014.jpg') }}">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-sm-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
@@ -265,7 +269,7 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <p class="fs-5 fw-bold text-primary">Why Choosing Us!</p>
                     <h1 class="display-5 mb-4">Few Reasons Why People Choosing Us!</h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                    <p class="mb-4">Choose us for unmatched quality,impressive finish and passionate expertise in crafting. Uncompromising Quality-For our unwavering commitment in delivering lab tested, high quality. Product ensuring your satisfaction to the fullest.</p>
                     <a class="btn btn-primary py-3 px-4" href="">Explore More</a>
                 </div>
                 <div class="col-lg-6">
@@ -307,7 +311,7 @@
 
 
     <!-- Service Start -->
-    <div class="container-xxl py-5">
+    <div id="service_section" class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                 <p class="fs-5 fw-bold text-primary">Our Services</p>
@@ -411,7 +415,7 @@
 
 
     <!-- Quote Start -->
-    <div class="container-fluid quote my-5 py-5" data-parallax="scroll" data-image-src="{{ asset('public/img/carousel-2.jpg') }}">
+    <div id="get_a_quote" class="container-fluid quote my-5 py-5" data-parallax="scroll" data-image-src="{{ asset('public/img/banner/IMG-20240425-WA0014.jpg') }}">
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-7">
@@ -461,7 +465,7 @@
 
 
     <!-- Projects Start -->
-    <div class="container-xxl py-5">
+    <div id="project_section" class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                 <p class="fs-5 fw-bold text-primary">Our Projects</p>
@@ -483,7 +487,7 @@
                         <div class="portfolio-text">
                             <h4 class="text-white mb-4">Landscaping</h4>
                             <div class="d-flex">
-                                <a class="btn btn-lg-square rounded-circle mx-2" href="img/service-1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-lg-square rounded-circle mx-2" href="{{ asset('public/img/service-1.jpg') }}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                 <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a>
                             </div>
                         </div>
@@ -495,7 +499,7 @@
                         <div class="portfolio-text">
                             <h4 class="text-white mb-4">Pruning plants</h4>
                             <div class="d-flex">
-                                <a class="btn btn-lg-square rounded-circle mx-2" href="img/service-2.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-lg-square rounded-circle mx-2" href="{{ asset('public/img/service-2.jpg') }}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                 <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a>
                             </div>
                         </div>
@@ -507,7 +511,7 @@
                         <div class="portfolio-text">
                             <h4 class="text-white mb-4">Irrigation & Drainage</h4>
                             <div class="d-flex">
-                                <a class="btn btn-lg-square rounded-circle mx-2" href="img/service-3.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-lg-square rounded-circle mx-2" href="{{ asset('public/img/service-3.jpg') }}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                 <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a>
                             </div>
                         </div>
@@ -519,7 +523,7 @@
                         <div class="portfolio-text">
                             <h4 class="text-white mb-4">Garden Maintenance</h4>
                             <div class="d-flex">
-                                <a class="btn btn-lg-square rounded-circle mx-2" href="img/service-4.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-lg-square rounded-circle mx-2" href="{{ asset('public/img/service-4.jpg') }}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                 <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a>
                             </div>
                         </div>
@@ -531,7 +535,7 @@
                         <div class="portfolio-text">
                             <h4 class="text-white mb-4">Green Technology</h4>
                             <div class="d-flex">
-                                <a class="btn btn-lg-square rounded-circle mx-2" href="img/service-5.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-lg-square rounded-circle mx-2" href="{{ asset('public/img/service-5.jpg') }}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                 <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a>
                             </div>
                         </div>
@@ -612,34 +616,7 @@
 
 
     <!-- Testimonial Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
-                    <p class="fs-5 fw-bold text-primary">Testimonial</p>
-                    <h1 class="display-5 mb-5">What Our Clients Say About Us!</h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit sed stet lorem sit clita duo justo.</p>
-                    <a class="btn btn-primary py-3 px-4" href="">See More</a>
-                </div>
-                <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="owl-carousel testimonial-carousel">
-                        <div class="testimonial-item">
-                            <img class="img-fluid rounded mb-3" src="{{ asset('public/img/testimonial-1.jpg') }}" alt="">
-                            <p class="fs-5">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.</p>
-                            <h4>Client Name</h4>
-                            <span>Profession</span>
-                        </div>
-                        <div class="testimonial-item">
-                            <img class="img-fluid rounded mb-3" src="{{ asset('public/img/testimonial-2.jpg') }}" alt="">
-                            <p class="fs-5">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.</p>
-                            <h4>Client Name</h4>
-                            <span>Profession</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('testimonial')
     <!-- Testimonial End -->
 
 
@@ -649,9 +626,10 @@
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-4">Our Office</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <!-- <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p> -->
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+919667529145</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+919599671247</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@a3p.in</p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
