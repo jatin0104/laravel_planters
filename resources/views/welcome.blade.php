@@ -203,7 +203,7 @@
         <div class="container">
             <div class="row g-5 align-items-end">
                 <div class="col-lg-3 col-md-5 wow fadeInUp" data-wow-delay="0.1s">
-                    <img class="img-fluid rounded" data-wow-delay="0.1s" src="{{ asset('public/img/about.jpg') }}">
+                    <img class="img-fluid rounded" data-wow-delay="0.1s" src="{{ asset('public/img/pots/IMG-20240419-WA0007.jpg') }}">
                 </div>
                 <div class="col-lg-6 col-md-7 wow fadeInUp" data-wow-delay="0.3s">
                     <h1 class="display-1 text-primary mb-0">25</h1>
