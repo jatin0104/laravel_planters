@@ -95,7 +95,7 @@
                         <a href="404.html" class="dropdown-item">404 Page</a>
                     </div>
                 </div> -->
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                <!-- <a href="#get_quote" class="nav-item nav-link">Contact</a> -->
             </div>
             <a href="#get_a_quote" class="btn btn-primary py-4 px-lg-4 rounded-0 d-none d-lg-block">Get A Quote<i class="fa fa-arrow-right ms-3"></i></a>
         </div>
@@ -113,7 +113,7 @@
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
-                                    <h1 class="display-1 text-white mb-5 animated slideInDown">Make Your Home Like Garden</h1>
+                                    <h1 class="display-1 text-white mb-5 animated slideInDown">Creating Spaces that Bugg</h1>
                                     <a href="" class="btn btn-primary py-sm-3 px-sm-4">Explore More</a>
                                 </div>
                             </div>
@@ -217,15 +217,17 @@
                         <div class="col-12 col-sm-6 col-lg-12">
                             <div class="border-start ps-4">
                                 <i class="fa fa-award fa-3x text-primary mb-3"></i>
-                                <h4 class="mb-3">Award Winning</h4>
-                                <span>Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna</span>
+                                <h4 class="mb-3">Uncompromising Quality</h4>
+                                <span>For our unwavering commitment in delivering lab tested,high quality
+                                product ensuring your satisfaction to the fullest.</span>
                             </div>
                         </div>
                         <div class="col-12 col-sm-6 col-lg-12">
                             <div class="border-start ps-4">
                                 <i class="fa fa-users fa-3x text-primary mb-3"></i>
-                                <h4 class="mb-3">Dedicated Team</h4>
-                                <span>Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna</span>
+                                <h4 class="mb-3">Impressive finish</h4>
+                                <span>Experiance the difference with our planters,design to provide an ultra smooth
+                                finish,setting the stage for stunning and flawless interior that leave a lasting impact .</span>
                             </div>
                         </div>
                     </div>
@@ -241,20 +243,20 @@
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-sm-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
-                    <h1 class="display-4 text-white" data-toggle="counter-up">1234</h1>
+                    <h1 class="display-4 text-white" data-toggle="counter-up">1000</h1>
                     <span class="fs-5 fw-semi-bold text-light">Happy Clients</span>
                 </div>
                 <div class="col-sm-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
-                    <h1 class="display-4 text-white" data-toggle="counter-up">1234</h1>
+                    <h1 class="display-4 text-white" data-toggle="counter-up">500</h1>
                     <span class="fs-5 fw-semi-bold text-light">Garden Complated</span>
                 </div>
                 <div class="col-sm-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
-                    <h1 class="display-4 text-white" data-toggle="counter-up">1234</h1>
+                    <h1 class="display-4 text-white" data-toggle="counter-up">100</h1>
                     <span class="fs-5 fw-semi-bold text-light">Dedicated Staff</span>
                 </div>
                 <div class="col-sm-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
-                    <h1 class="display-4 text-white" data-toggle="counter-up">1234</h1>
-                    <span class="fs-5 fw-semi-bold text-light">Awards Achieved</span>
+                    <h1 class="display-4 text-white" data-toggle="counter-up">1000</h1>
+                    <span class="fs-5 fw-semi-bold text-light">Order Received</span>
                 </div>
             </div>
         </div>
@@ -321,14 +323,14 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item rounded d-flex h-100">
                         <div class="service-img rounded">
-                            <img class="img-fluid" src="{{ asset('public/img/service-1.jpg') }}" alt="">
+                            <img class="img-fluid" src="{{ asset('public/img/pots/IMG-20240413-WA0010.jpg') }}" alt="">
                         </div>
                         <div class="service-text rounded p-5">
                             <div class="btn-square rounded-circle mx-auto mb-3">
                                 <img class="img-fluid" src="{{ asset('public/img/icon/icon-3.png') }}" alt="Icon">
                             </div>
-                            <h4 class="mb-3">Landscaping</h4>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                            <h4 class="mb-3">Interior Landscaping</h4>
+                            <p class="mb-4" style="visibility:hidden">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
                             <a class="btn btn-sm" href=""><i class="fa fa-plus text-primary me-2"></i>Read More</a>
                         </div>
                     </div>
@@ -336,14 +338,14 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item rounded d-flex h-100">
                         <div class="service-img rounded">
-                            <img class="img-fluid" src="{{ asset('public/img/service-2.jpg') }}" alt="">
+                            <img class="img-fluid" src="{{ asset('public/img/pots/IMG-20240413-WA0011.jpg') }}" alt="">
                         </div>
                         <div class="service-text rounded p-5">
                             <div class="btn-square rounded-circle mx-auto mb-3">
                                 <img class="img-fluid" src="{{ asset('public/img/icon/icon-6.png') }}" alt="Icon">
                             </div>
-                            <h4 class="mb-3">Pruning plants</h4>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                            <h4 class="mb-3">Durable Products</h4>
+                            <p class="mb-4" style="visibility:hidden">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
                             <a class="btn btn-sm" href=""><i class="fa fa-plus text-primary me-2"></i>Read More</a>
                         </div>
                     </div>
@@ -351,14 +353,14 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item rounded d-flex h-100">
                         <div class="service-img rounded">
-                            <img class="img-fluid" src="{{ asset('public/img/service-3.jpg') }}" alt="">
+                            <img class="img-fluid" src="{{ asset('public/img/pots/IMG-20240413-WA0012.jpg') }}" alt="">
                         </div>
                         <div class="service-text rounded p-5">
                             <div class="btn-square rounded-circle mx-auto mb-3">
                                 <img class="img-fluid" src="{{ asset('public/img/icon/icon-5.png') }}" alt="Icon">
                             </div>
-                            <h4 class="mb-3">Irrigation & Drainage</h4>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                            <h4 class="mb-3">Terrace Landscaping</h4>
+                            <p class="mb-4" style="visibility:hidden">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
                             <a class="btn btn-sm" href=""><i class="fa fa-plus text-primary me-2"></i>Read More</a>
                         </div>
                     </div>
@@ -366,14 +368,14 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item rounded d-flex h-100">
                         <div class="service-img rounded">
-                            <img class="img-fluid" src="{{ asset('public/img/service-4.jpg') }}" alt="">
+                            <img class="img-fluid" src="{{ asset('public/img/pots/IMG-20240425-WA0013.jpg') }}" alt="">
                         </div>
                         <div class="service-text rounded p-5">
                             <div class="btn-square rounded-circle mx-auto mb-3">
                                 <img class="img-fluid" src="{{ asset('public/img/icon/icon-4.png') }}" alt="Icon">
                             </div>
                             <h4 class="mb-3">Garden Maintenance </h4>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                            <p class="mb-4" style="visibility:hidden">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
                             <a class="btn btn-sm" href=""><i class="fa fa-plus text-primary me-2"></i>Read More</a>
                         </div>
                     </div>
@@ -381,14 +383,14 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item rounded d-flex h-100">
                         <div class="service-img rounded">
-                            <img class="img-fluid" src="{{ asset('public/img/service-5.jpg') }}" alt="">
+                            <img class="img-fluid" src="{{ asset('public/img/pots/IMG-20240425-WA0014.jpg') }}" alt="">
                         </div>
                         <div class="service-text rounded p-5">
                             <div class="btn-square rounded-circle mx-auto mb-3">
                                 <img class="img-fluid" src="{{ asset('public/img/icon/icon-8.png') }}" alt="Icon">
                             </div>
                             <h4 class="mb-3">Green Technology</h4>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                            <p class="mb-4" style="visibility:hidden">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
                             <a class="btn btn-sm" href=""><i class="fa fa-plus text-primary me-2"></i>Read More</a>
                         </div>
                     </div>
@@ -396,14 +398,14 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item rounded d-flex h-100">
                         <div class="service-img rounded">
-                            <img class="img-fluid" src="{{ asset('public/img/service-6.jpg') }}" alt="">
+                            <img class="img-fluid" src="{{ asset('public/img/pots/IMG-20240425-WA0015.jpg') }}" alt="">
                         </div>
                         <div class="service-text rounded p-5">
                             <div class="btn-square rounded-circle mx-auto mb-3">
                                 <img class="img-fluid" src="{{ asset('public/img/icon/icon-2.png') }}" alt="Icon">
                             </div>
                             <h4 class="mb-3">Urban Gardening</h4>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                            <p class="mb-4" style="visibility:hidden">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
                             <a class="btn btn-sm" href=""><i class="fa fa-plus text-primary me-2"></i>Read More</a>
                         </div>
                     </div>
@@ -483,11 +485,11 @@
             <div class="row g-4 portfolio-container">
                 <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
                     <div class="portfolio-inner rounded">
-                        <img class="img-fluid" src="{{ asset('public/img/service-1.jpg') }}" alt="">
+                        <img class="img-fluid" src="{{ asset('public/img/pots/IMG-20240425-WA0020.jpg') }}" alt="">
                         <div class="portfolio-text">
                             <h4 class="text-white mb-4">Landscaping</h4>
                             <div class="d-flex">
-                                <a class="btn btn-lg-square rounded-circle mx-2" href="{{ asset('public/img/service-1.jpg') }}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-lg-square rounded-circle mx-2" href="{{ asset('public/img/pots/IMG-20240425-WA0020.jpg') }}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                 <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a>
                             </div>
                         </div>
@@ -495,11 +497,11 @@
                 </div>
                 <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.3s">
                     <div class="portfolio-inner rounded">
-                        <img class="img-fluid" src="{{ asset('public/img/service-2.jpg') }}" alt="">
+                        <img class="img-fluid" src="{{ asset('public/img/pots/IMG-20240425-WA0018.jpg') }}" alt="">
                         <div class="portfolio-text">
                             <h4 class="text-white mb-4">Pruning plants</h4>
                             <div class="d-flex">
-                                <a class="btn btn-lg-square rounded-circle mx-2" href="{{ asset('public/img/service-2.jpg') }}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-lg-square rounded-circle mx-2" href="{{ asset('public/img/pots/IMG-20240425-WA0018.jpg') }}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                 <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a>
                             </div>
                         </div>
@@ -507,11 +509,11 @@
                 </div>
                 <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.5s">
                     <div class="portfolio-inner rounded">
-                        <img class="img-fluid" src="{{ asset('public/img/service-3.jpg') }}" alt="">
+                        <img class="img-fluid" src="{{ asset('public/img/pots/IMG-20240425-WA0017.jpg') }}" alt="">
                         <div class="portfolio-text">
                             <h4 class="text-white mb-4">Irrigation & Drainage</h4>
                             <div class="d-flex">
-                                <a class="btn btn-lg-square rounded-circle mx-2" href="{{ asset('public/img/service-3.jpg') }}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-lg-square rounded-circle mx-2" href="{{ asset('public/img/pots/IMG-20240425-WA0017.jpg') }}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                 <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a>
                             </div>
                         </div>
@@ -519,11 +521,11 @@
                 </div>
                 <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.1s">
                     <div class="portfolio-inner rounded">
-                        <img class="img-fluid" src="{{ asset('public/img/service-4.jpg') }}" alt="">
+                        <img class="img-fluid" src="{{ asset('public/img/pots/IMG-20240425-WA0016.jpg') }}" alt="">
                         <div class="portfolio-text">
                             <h4 class="text-white mb-4">Garden Maintenance</h4>
                             <div class="d-flex">
-                                <a class="btn btn-lg-square rounded-circle mx-2" href="{{ asset('public/img/service-4.jpg') }}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-lg-square rounded-circle mx-2" href="{{ asset('public/img/pots/IMG-20240425-WA0016.jpg') }}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                 <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a>
                             </div>
                         </div>
@@ -531,11 +533,11 @@
                 </div>
                 <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.3s">
                     <div class="portfolio-inner rounded">
-                        <img class="img-fluid" src="{{ asset('public/img/service-5.jpg') }}" alt="">
+                        <img class="img-fluid" src="{{ asset('public/img/pots/IMG-20240425-WA0013.jpg') }}" alt="">
                         <div class="portfolio-text">
                             <h4 class="text-white mb-4">Green Technology</h4>
                             <div class="d-flex">
-                                <a class="btn btn-lg-square rounded-circle mx-2" href="{{ asset('public/img/service-5.jpg') }}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-lg-square rounded-circle mx-2" href="{{ asset('public/img/pots/IMG-20240425-WA0013.jpg') }}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                 <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a>
                             </div>
                         </div>
@@ -543,11 +545,11 @@
                 </div>
                 <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.5s">
                     <div class="portfolio-inner rounded">
-                        <img class="img-fluid" src="{{ asset('public/img/service-6.jpg') }}" alt="">
+                        <img class="img-fluid" src="{{ asset('public/img/pots/IMG-20240419-WA0006.jpg') }}" alt="">
                         <div class="portfolio-text">
                             <h4 class="text-white mb-4">Urban Gardening</h4>
                             <div class="d-flex">
-                                <a class="btn btn-lg-square rounded-circle mx-2" href="{{ asset('public/img/service-6.jpg') }}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-lg-square rounded-circle mx-2" href="{{ asset('public/img/pots/IMG-20240419-WA0006.jpg') }}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                 <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a>
                             </div>
                         </div>
@@ -560,7 +562,7 @@
 
 
     <!-- Team Start -->
-    <div class="container-xxl py-5">
+    <div class="container-xxl py-5" style="display:none">
         <div class="container">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                 <p class="fs-5 fw-bold text-primary">Our Team</p>
@@ -624,7 +626,7 @@
     <div class="container-fluid bg-dark text-light footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <h4 class="text-white mb-4">Our Office</h4>
                     <!-- <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p> -->
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+919667529145</p>
@@ -637,23 +639,24 @@
                         <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <!-- <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-4">Services</h4>
                     <a class="btn btn-link" href="">Landscaping</a>
                     <a class="btn btn-link" href="">Pruning plants</a>
                     <a class="btn btn-link" href="">Urban Gardening</a>
                     <a class="btn btn-link" href="">Garden Maintenance</a>
                     <a class="btn btn-link" href="">Green Technology</a>
-                </div>
-                <div class="col-lg-3 col-md-6">
+                </div> -->
+                <div class="col-lg-4 col-md-6">
                     <h4 class="text-white mb-4">Quick Links</h4>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Our Services</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Support</a>
+                    <a class="btn btn-link" href="#about_section">About Us</a>
+                    <!-- <a class="btn btn-link" href="">Contact Us</a> -->
+                    <a class="btn btn-link" href="#service_section">Our Services</a>
+                    <a class="btn btn-link" href="javascript(0)">Terms & Condition</a>
+                    <a class="btn btn-link" href="javascript(0)">Support</a>
+                    <a class="btn btn-link" href="#career_section">Careers</a>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <h4 class="text-white mb-4">Newsletter</h4>
                     <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
                     <div class="position-relative w-100">
