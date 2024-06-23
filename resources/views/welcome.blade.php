@@ -44,15 +44,15 @@
     <div class="container-fluid bg-dark text-light px-0 py-2">
         <div class="row gx-0 d-none d-lg-flex">
             <div class="col-lg-7 px-5 text-start">
-                <div style="visibility:hidden" class="h-100 d-inline-flex align-items-center me-4">
+                <div class="h-100 d-inline-flex align-items-center me-4">
                     <span class="fa fa-phone-alt me-2"></span>
                     <span>+919599671247</span>
                 </div>
-                <div style="visibility:hidden" class="h-100 d-inline-flex align-items-center me-4">
+                <div class="h-100 d-inline-flex align-items-center me-4">
                     <span class="fa fa-phone-alt me-2"></span>
                     <span>+919667529145</span>
                 </div>
-                <div style="visibility:hidden" class="h-100 d-inline-flex align-items-center">
+                <div class="h-100 d-inline-flex align-items-center">
                     <span class="far fa-envelope me-2"></span>
                     <span>info@a3p.in</span>
                 </div>
@@ -159,9 +159,9 @@
                             <div class="flex-shrink-0 btn-lg-square rounded-circle bg-light">
                                 <i class="fa fa-times text-primary"></i>
                             </div>
-                            <div class="ps-3">
+                            <div class="ps-3" style="margin-top: 10px">
                                 <h4>No Hidden Cost</h4>
-                                <span>Clita erat ipsum lorem sit sed stet duo justo</span>
+                                <span style="visibility:hidden">Clita erat ipsum lorem sit sed stet duo justo</span>
                             </div>
                         </div>
                     </div>
@@ -172,9 +172,9 @@
                             <div class="flex-shrink-0 btn-lg-square rounded-circle bg-light">
                                 <i class="fa fa-users text-primary"></i>
                             </div>
-                            <div class="ps-3">
+                            <div class="ps-3" style="margin-top: 10px">
                                 <h4>Dedicated Team</h4>
-                                <span>Clita erat ipsum lorem sit sed stet duo justo</span>
+                                <span style="visibility:hidden">Clita erat ipsum lorem sit sed stet duo justo</span>
                             </div>
                         </div>
                     </div>
@@ -185,9 +185,9 @@
                             <div class="flex-shrink-0 btn-lg-square rounded-circle bg-light">
                                 <i class="fa fa-phone text-primary"></i>
                             </div>
-                            <div class="ps-3">
+                            <div class="ps-3" style="margin-top: 10px">
                                 <h4>24/7 Available</h4>
-                                <span>Clita erat ipsum lorem sit sed stet duo justo</span>
+                                <span style="visibility:hidden">Clita erat ipsum lorem sit sed stet duo justo</span>
                             </div>
                         </div>
                     </div>
