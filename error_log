@@ -1,0 +1,15 @@
+[20-May-2024 17:34:18 UTC] PHP Warning:  require(/home/ou46kzm6jkx3/public_html/laravel_planters/vendor/autoload.php): Failed to open stream: No such file or directory in /home/ou46kzm6jkx3/public_html/laravel_planters/artisan on line 9
+[20-May-2024 17:34:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ou46kzm6jkx3/public_html/laravel_planters/vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ou46kzm6jkx3/public_html/laravel_planters/artisan:9
+Stack trace:
+#0 {main}
+  thrown in /home/ou46kzm6jkx3/public_html/laravel_planters/artisan on line 9
+[22-May-2024 15:48:56 UTC] PHP Warning:  require(/home/ou46kzm6jkx3/public_html/laravel_planters/vendor/autoload.php): Failed to open stream: No such file or directory in /home/ou46kzm6jkx3/public_html/laravel_planters/artisan on line 9
+[22-May-2024 15:48:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ou46kzm6jkx3/public_html/laravel_planters/vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ou46kzm6jkx3/public_html/laravel_planters/artisan:9
+Stack trace:
+#0 {main}
+  thrown in /home/ou46kzm6jkx3/public_html/laravel_planters/artisan on line 9
+[22-May-2024 15:52:18 UTC] PHP Warning:  require(/home/ou46kzm6jkx3/public_html/laravel_planters/vendor/autoload.php): Failed to open stream: No such file or directory in /home/ou46kzm6jkx3/public_html/laravel_planters/artisan on line 9
+[22-May-2024 15:52:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ou46kzm6jkx3/public_html/laravel_planters/vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ou46kzm6jkx3/public_html/laravel_planters/artisan:9
+Stack trace:
+#0 {main}
+  thrown in /home/ou46kzm6jkx3/public_html/laravel_planters/artisan on line 9

@@ -44,15 +44,15 @@
     <div class="container-fluid bg-dark text-light px-0 py-2">
         <div class="row gx-0 d-none d-lg-flex">
             <div class="col-lg-7 px-5 text-start">
-                <div class="h-100 d-inline-flex align-items-center me-4">
+                <div style="visibility:hidden" class="h-100 d-inline-flex align-items-center me-4">
                     <span class="fa fa-phone-alt me-2"></span>
                     <span>+919599671247</span>
                 </div>
-                <div class="h-100 d-inline-flex align-items-center me-4">
+                <div style="visibility:hidden" class="h-100 d-inline-flex align-items-center me-4">
                     <span class="fa fa-phone-alt me-2"></span>
                     <span>+919667529145</span>
                 </div>
-                <div class="h-100 d-inline-flex align-items-center">
+                <div style="visibility:hidden" class="h-100 d-inline-flex align-items-center">
                     <span class="far fa-envelope me-2"></span>
                     <span>info@a3p.in</span>
                 </div>
@@ -113,7 +113,7 @@
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
-                                    <h1 class="display-1 text-white mb-5 animated slideInDown">Creating Spaces that Bugg</h1>
+                                    <h1 class="display-1 text-white mb-5 animated slideInDown">Creating Spaces that Buzz's</h1>
                                     <a href="" class="btn btn-primary py-sm-3 px-sm-4">Explore More</a>
                                 </div>
                             </div>
