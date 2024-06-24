@@ -44,17 +44,17 @@
     <div class="container-fluid bg-dark text-light px-0 py-2">
         <div class="row gx-0 d-none d-lg-flex">
             <div class="col-lg-7 px-5 text-start">
-                <div class="h-100 d-inline-flex align-items-center me-4">
-                    <span class="fa fa-phone-alt me-2"></span>
-                    <span>+919599671247</span>
-                </div>
-                <div class="h-100 d-inline-flex align-items-center me-4">
-                    <span class="fa fa-phone-alt me-2"></span>
-                    <span>+919667529145</span>
-                </div>
                 <div class="h-100 d-inline-flex align-items-center">
                     <span class="far fa-envelope me-2"></span>
                     <span>info@a3p.in</span>
+                </div>
+                <div style="visibility:hidden" class="h-100 d-inline-flex align-items-center me-4">
+                    <span class="fa fa-phone-alt me-2"></span>
+                    <span>+919599671247</span>
+                </div>
+                <div style="visibility:hidden" class="h-100 d-inline-flex align-items-center me-4">
+                    <span class="fa fa-phone-alt me-2"></span>
+                    <span>+919667529145</span>
                 </div>
             </div>
             <div class="col-lg-5 px-5 text-end">
@@ -629,9 +629,9 @@
                 <div class="col-lg-4 col-md-6">
                     <h4 class="text-white mb-4">Our Office</h4>
                     <!-- <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p> -->
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+919667529145</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+919599671247</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@a3p.in</p>
+                    <p style="visibility:hidden" class="mb-2"><i class="fa fa-phone-alt me-3"></i>+919667529145</p>
+                    <p style="visibility:hidden" class="mb-2"><i class="fa fa-phone-alt me-3"></i>+919599671247</p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
@@ -657,11 +657,11 @@
                     <a class="btn btn-link" href="#career_section">Careers</a>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <h4 class="text-white mb-4">Newsletter</h4>
+                    <h4 class="text-white mb-4">Enquiry</h4>
                     <!-- <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p> -->
                     <div class="position-relative w-100">
                         <input class="form-control bg-light border-light w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Get a Quote</button>
                     </div>
                 </div>
             </div>
