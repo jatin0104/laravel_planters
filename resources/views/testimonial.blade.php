@@ -10,35 +10,35 @@
                 <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="owl-carousel testimonial-carousel">
                     <div class="testimonial-item">
-    <img class="img-fluid rounded mb-3" src="{{ asset('public/img/testimonials/user3.jpg') }}" alt="">
+    <img class="img-fluid rounded mb-3" src="{{ asset('public/img/users/users.png') }}" alt="">
     <p class="fs-5">I am extremely pleased with the quality of these planters. They are both durable and stylish, perfect for my garden.</p>
     <h4>Rajesh Kumar</h4>
     <span>Landscape Architect</span>
 </div>
 
 <div class="testimonial-item">
-    <img class="img-fluid rounded mb-3" src="{{ asset('public/img/testimonials/user1.jpg') }}" alt="">
+    <img class="img-fluid rounded mb-3" src="{{ asset('public/img/users/users.png') }}" alt="">
     <p class="fs-5">The design of these planters is fantastic. They complement my home décor beautifully.</p>
     <h4>Anjali Mehta</h4>
     <span>Interior Designer</span>
 </div>
 
 <div class="testimonial-item">
-    <img class="img-fluid rounded mb-3" src="{{ asset('public/img/testimonials/user5.jpg') }}" alt="">
+    <img class="img-fluid rounded mb-3" src="{{ asset('public/img/users/users.png') }}" alt="">
     <p class="fs-5">These planters are perfect for my balcony garden. They are sturdy and look great.</p>
     <h4>Vikram Singh</h4>
     <span>Urban Gardener</span>
 </div>
 
 <div class="testimonial-item">
-    <img class="img-fluid rounded mb-3" src="{{ asset('public/img/testimonials/user2.jpg') }}" alt="">
+    <img class="img-fluid rounded mb-3" src="{{ asset('public/img/users/users.png') }}" alt="">
     <p class="fs-5">I love the variety of sizes and colors available. There's something for every plant.</p>
     <h4>Sneha Nair</h4>
     <span>Home Decorator</span>
 </div>
 
 <div class="testimonial-item">
-    <img class="img-fluid rounded mb-3" src="{{ asset('public/img/testimonials/user4.jpg') }}" alt="">
+    <img class="img-fluid rounded mb-3" src="{{ asset('public/img/users/users.png') }}" alt="">
     <p class="fs-5">The quality of these planters is unmatched. They have enhanced the look of my outdoor space.</p>
     <h4>Arjun Patel</h4>
     <span>Small Space Gardener</span>
