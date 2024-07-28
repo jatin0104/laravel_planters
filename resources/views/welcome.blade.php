@@ -48,7 +48,7 @@
                     <span class="far fa-envelope me-2"></span>
                     <span>info@a3p.in</span>
                 </div>
-                <div style="visibility:hidden" class="h-100 d-inline-flex align-items-center me-4">
+                <div class="h-100 d-inline-flex align-items-center me-4">
                     <span class="fa fa-phone-alt me-2"></span>
                     <span>+919599671247</span>
                 </div>
@@ -113,8 +113,8 @@
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
-                                    <h1 class="display-1 text-white mb-5 animated slideInDown">Creating Spaces that Buzz's</h1>
-                                    <a href="" class="btn btn-primary py-sm-3 px-sm-4">Explore More</a>
+                                    <h1 class="display-1 text-white mb-5 animated slideInDown">Creating Spaces that Buzz</h1>
+                                    <a href="{{ asset('public/A3p Catlogue.pdf') }}" target="_blank" class="btn btn-primary py-sm-3 px-sm-4">Download Brochure</a>
                                 </div>
                             </div>
                         </div>
@@ -127,7 +127,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-7">
                                     <h1 class="display-1 text-white mb-5 animated slideInDown">Create Your Own Small Garden At Home</h1>
-                                    <a href="" class="btn btn-primary py-sm-3 px-sm-4">Explore More</a>
+                                    <a href="{{ asset('public/A3p Catlogue.pdf') }}" target="_blank" class="btn btn-primary py-sm-3 px-sm-4">Download Brochure</a>
                                 </div>
                             </div>
                         </div>
@@ -265,14 +265,14 @@
 
 
     <!-- Features Start -->
-    <div class="container-xxl py-5">
+    <div class="container-xxl py-5" >
         <div class="container">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <p class="fs-5 fw-bold text-primary">Why Choosing Us!</p>
                     <h1 class="display-5 mb-4">Few Reasons Why People Choosing Us!</h1>
                     <p class="mb-4">Choose us for unmatched quality,impressive finish and passionate expertise in crafting. Uncompromising Quality-For our unwavering commitment in delivering lab tested, high quality. Product ensuring your satisfaction to the fullest.</p>
-                    <a class="btn btn-primary py-3 px-4" href="">Explore More</a>
+                    <a class="btn btn-primary py-3 px-4" href="#testimonial-section">Explore More</a>
                 </div>
                 <div class="col-lg-6">
                     <div class="row g-4 align-items-center">
@@ -485,23 +485,25 @@
             <div class="row g-4 portfolio-container">
                 <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
                     <div class="portfolio-inner rounded">
-                        <img class="img-fluid" src="{{ asset('public/img/pots/IMG-20240425-WA0020.jpg') }}" alt="">
-                        <div class="portfolio-text">
-                            <h4 class="text-white mb-4">Landscaping</h4>
-                            <div class="d-flex">
-                                <a class="btn btn-lg-square rounded-circle mx-2" href="{{ asset('public/img/pots/IMG-20240425-WA0020.jpg') }}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a>
+                        <center>
+                            <img class="img-fluid" style="width: 97%" src="{{ asset('public/img/pots/IMG-20240526-WA0056.jpg') }}" alt="">
+                            <div class="portfolio-text">
+                                <h4 class="text-white mb-4">Moon Tub</h4>
+                                <div class="d-flex">
+                                    <a class="btn btn-lg-square rounded-circle mx-2" href="{{ asset('public/img/pots/IMG-20240526-WA0056.jpg') }}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                    <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a>
+                                </div>
                             </div>
-                        </div>
+                        </center>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.3s">
                     <div class="portfolio-inner rounded">
-                        <img class="img-fluid" src="{{ asset('public/img/pots/IMG-20240425-WA0018.jpg') }}" alt="">
+                        <img class="img-fluid" src="{{ asset('public/img/pots/IMG-20240419-WA0011.jpg') }}" alt="">
                         <div class="portfolio-text">
-                            <h4 class="text-white mb-4">Pruning plants</h4>
+                            <h4 class="text-white mb-4">Pearl</h4>
                             <div class="d-flex">
-                                <a class="btn btn-lg-square rounded-circle mx-2" href="{{ asset('public/img/pots/IMG-20240425-WA0018.jpg') }}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-lg-square rounded-circle mx-2" href="{{ asset('public/img/pots/IMG-20240419-WA0011.jpg') }}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                 <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a>
                             </div>
                         </div>
@@ -509,23 +511,25 @@
                 </div>
                 <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.5s">
                     <div class="portfolio-inner rounded">
-                        <img class="img-fluid" src="{{ asset('public/img/pots/IMG-20240425-WA0017.jpg') }}" alt="">
-                        <div class="portfolio-text">
-                            <h4 class="text-white mb-4">Irrigation & Drainage</h4>
-                            <div class="d-flex">
-                                <a class="btn btn-lg-square rounded-circle mx-2" href="{{ asset('public/img/pots/IMG-20240425-WA0017.jpg') }}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a>
+                        <center>
+                            <img class="img-fluid" style="width: 83%" src="{{ asset('public/img/pots/IMG-20240526-WA0051.jpg') }}" alt="">
+                            <div class="portfolio-text">
+                                <h4 class="text-white mb-4">Spring</h4>
+                                <div class="d-flex">
+                                    <a class="btn btn-lg-square rounded-circle mx-2" href="{{ asset('public/img/pots/IMG-20240526-WA0051.jpg') }}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                    <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a>
+                                </div>
                             </div>
-                        </div>
+                        </center>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.1s">
                     <div class="portfolio-inner rounded">
-                        <img class="img-fluid" src="{{ asset('public/img/pots/IMG-20240425-WA0016.jpg') }}" alt="">
+                        <img class="img-fluid" src="{{ asset('public/img/pots/IMG-20240413-WA0010.jpg') }}" alt="">
                         <div class="portfolio-text">
-                            <h4 class="text-white mb-4">Garden Maintenance</h4>
+                            <h4 class="text-white mb-4">Classy</h4>
                             <div class="d-flex">
-                                <a class="btn btn-lg-square rounded-circle mx-2" href="{{ asset('public/img/pots/IMG-20240425-WA0016.jpg') }}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-lg-square rounded-circle mx-2" href="{{ asset('public/img/pots/IMG-20240413-WA0010.jpg') }}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                 <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a>
                             </div>
                         </div>
@@ -533,11 +537,11 @@
                 </div>
                 <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.3s">
                     <div class="portfolio-inner rounded">
-                        <img class="img-fluid" src="{{ asset('public/img/pots/IMG-20240425-WA0013.jpg') }}" alt="">
+                        <img class="img-fluid" src="{{ asset('public/img/pots/IMG-20240413-WA0011.jpg') }}" alt="">
                         <div class="portfolio-text">
-                            <h4 class="text-white mb-4">Green Technology</h4>
+                            <h4 class="text-white mb-4">Opal Ball</h4>
                             <div class="d-flex">
-                                <a class="btn btn-lg-square rounded-circle mx-2" href="{{ asset('public/img/pots/IMG-20240425-WA0013.jpg') }}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-lg-square rounded-circle mx-2" href="{{ asset('public/img/pots/IMG-20240413-WA0011.jpg') }}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                 <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a>
                             </div>
                         </div>
@@ -545,14 +549,16 @@
                 </div>
                 <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.5s">
                     <div class="portfolio-inner rounded">
-                        <img class="img-fluid" src="{{ asset('public/img/pots/IMG-20240419-WA0006.jpg') }}" alt="">
-                        <div class="portfolio-text">
-                            <h4 class="text-white mb-4">Urban Gardening</h4>
-                            <div class="d-flex">
-                                <a class="btn btn-lg-square rounded-circle mx-2" href="{{ asset('public/img/pots/IMG-20240419-WA0006.jpg') }}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a>
+                        <center>
+                            <img class="img-fluid" style="width: 95%" src="{{ asset('public/img/pots/IMG-20240413-WA0012.jpg') }}" alt="">
+                            <div class="portfolio-text">
+                                <h4 class="text-white mb-4">Ice Cube</h4>
+                                <div class="d-flex">
+                                    <a class="btn btn-lg-square rounded-circle mx-2" href="{{ asset('public/img/pots/IMG-20240413-WA0012.jpg') }}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                    <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a>
+                                </div>
                             </div>
-                        </div>
+                        </center>
                     </div>
                 </div>
             </div>
@@ -630,8 +636,8 @@
                     <h4 class="text-white mb-4">Our Office</h4>
                     <!-- <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p> -->
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@a3p.in</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+919599671247</p>
                     <p style="visibility:hidden" class="mb-2"><i class="fa fa-phone-alt me-3"></i>+919667529145</p>
-                    <p style="visibility:hidden" class="mb-2"><i class="fa fa-phone-alt me-3"></i>+919599671247</p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
