@@ -62,8 +62,8 @@
                     <span>Follow Us:</span>
                     <a class="btn btn-link text-light" href=""><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-link text-light" href=""><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-link text-light" href=""><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-link text-light" href=""><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-link text-light" href="https://www.linkedin.com/in/a3p-planters-3244b3321/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-link text-light" href="https://www.instagram.com/a3p_planters/" target="_blank"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
         </div>
@@ -642,7 +642,8 @@
                         <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href="https://www.linkedin.com/in/a3p-planters-3244b3321/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/a3p_planters/" target="_blank" class="btn btn-square btn-outline-light rounded-circle me-2"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
                 <!-- <div class="col-lg-3 col-md-6">

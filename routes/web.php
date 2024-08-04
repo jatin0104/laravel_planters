@@ -7,5 +7,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// career route
+Route::get('/career', function () {
+    return view('career');
+});
 
 Route::get('/send-email', [HomeController::class, 'sendEmail']);
