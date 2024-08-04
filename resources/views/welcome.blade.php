@@ -639,7 +639,7 @@
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+919599671247</p>
                     <p style="visibility:hidden" class="mb-2"><i class="fa fa-phone-alt me-3"></i>+919667529145</p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
+                        <!-- <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a> -->
                         <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-youtube"></i></a>
                         <a class="btn btn-square btn-outline-light rounded-circle me-2" href="https://www.linkedin.com/in/a3p-planters-3244b3321/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
